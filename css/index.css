@@ -1,0 +1,25 @@
+@import './wrapper.css';
+@import './header.css';
+
+:root {
+  /*Colors*/
+  --bg: #0b1d26;
+  --white: #ffffff;
+  --accent: #fdd130;
+  /*Typography*/
+  --basefontFamily: 'Poppins', sans-serif;
+  --headline1: 500 5.5rem/6.25rem var(--basefontFamily);
+  --headline2: 600 4rem/6rem var(--basefontFamily);
+  --body1Bold: 700 1.125rem/2rem var(--basefontFamily);
+  --body1Medium: 500 1.125rem/2rem var(--basefontFamily);
+  --body1Regular: 400 1.125rem/2rem var(--basefontFamily);
+  --button: 700 1.125rem/1.6875rem var(--basefontFamily);
+}
+
+body {
+  font-family: var(--basefontFamily);
+  background-color: var(--bg);
+  color: var(--white);
+  height: 100vh;
+  margin: 0;
+}
