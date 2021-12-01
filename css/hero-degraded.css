@@ -1,0 +1,7 @@
+.hero-degraded {
+  position: absolute;
+  bottom: 0;
+  inline-size: 100%;
+  block-size: 35rem;
+  background-image: linear-gradient(transparent, var(--bg) 80%);
+}
