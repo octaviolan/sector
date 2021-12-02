@@ -1,6 +1,7 @@
 .footer {
   position: relative;
   top: -10rem;
+  padding-block-end: 7.5rem;
 }
 
 .footer-content {
