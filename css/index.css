@@ -1,6 +1,8 @@
 @import './wrapper.css';
 @import './header.css';
 @import './hero.css';
+@import './main.css';
+@import './card.css';
 
 :root {
   /*Colors*/
