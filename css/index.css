@@ -3,6 +3,7 @@
 @import './hero.css';
 @import './main.css';
 @import './card.css';
+@import './footer.css';
 
 :root {
   /*Colors*/
@@ -13,7 +14,7 @@
   --basefontFamily: 'Poppins', sans-serif;
   --headline1: 500 5.5rem/5.5rem var(--basefontFamily);
   --headline2: 600 4rem/6rem var(--basefontFamily);
-  --body1Bold: 700 1.125rem/2rem var(--basefontFamily);
+  --body1Bold: 700 1.5rem/2rem var(--basefontFamily);
   --body1Medium: 500 1.125rem/2rem var(--basefontFamily);
   --body1Regular: 400 1.125rem/2rem var(--basefontFamily);
   --button: 700 1.125rem/1.6875rem var(--basefontFamily);

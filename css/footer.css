@@ -1,0 +1,45 @@
+.footer {
+  position: relative;
+  top: -10rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .copy img {
+  vertical-align: middle;
+}
+
+.footer-content .copy p {
+  margin: 0;
+  margin-block-start: 1.5rem;
+  opacity: 0.5;
+}
+
+.footer-content .info {
+  display: flex;
+  gap: 9.875rem;
+}
+
+.footer-content .services,
+.footer-content .about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-content .services p,
+.footer-content .about p {
+  margin: 0;
+  font: var(--body1Bold);
+  color: var(--accent);
+}
+
+.footer-content .services a,
+.footer-content .about a {
+  text-decoration: none;
+  color: var(--white);
+  font: var(--body1Medium);
+}

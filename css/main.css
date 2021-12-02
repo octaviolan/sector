@@ -2,3 +2,10 @@
   position: relative;
   top: -20rem;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12.5rem;
+
+}

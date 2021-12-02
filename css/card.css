@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-block-end: 12.5rem;
 }
 
 .card:nth-child(even) {
